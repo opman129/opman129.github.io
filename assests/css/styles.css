@@ -977,6 +977,10 @@ img {
         width: 180px;
     }
 
+    .home__blob-img {
+        width: 100px;
+    }
+
     .about__container {
         display: inline-flexbox;
         gap: .5rem;
