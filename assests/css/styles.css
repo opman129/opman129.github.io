@@ -979,7 +979,12 @@ img {
     }
 
     .home__blob-img {
-        width: 500px;
+        width: 246px;
+    }
+
+    image {
+        x: -17;
+        y: 35;
     }
 
     .about__container {
