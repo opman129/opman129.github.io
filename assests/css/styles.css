@@ -976,15 +976,19 @@ img {
 
     .home__blob {
         width: 180px;
+        margin-left: 2.2rem;
     }
 
     .home__blob-img {
-        width: 246px;
+        width: 350px;
     }
 
     image {
-        x: -17;
+        x: -65;
         y: 35;
+    }
+    h3.home__subtitle {
+        padding-right: .7rem;
     }
 
     .about__container {
