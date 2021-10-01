@@ -206,7 +206,7 @@ themeButton.addEventListener('click', () => {
 /** ================== DISPLAY PICTURE FOR SMALL SIZES ================== */
 const getImage = document.querySelector('.home__blob-img');
 const imageData = document.querySelector('#small');
-const bodyWidth = Math.max(document.body.clientWidth)
+const bodyWidth = Math.max(document.body.clientWidth).toString().split(';').join('px');
 
 ( function changeImageSize () {
     if (bodyWidth < '400px') {
