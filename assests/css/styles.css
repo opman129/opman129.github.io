@@ -957,7 +957,7 @@ img {
 /* ======================== MEDIA QUERIES ==================== */
 
 /* For Small Devices */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -973,6 +973,7 @@ img {
     .home__content {
         grid-template-columns: .25fr 3fr;
     }
+
     .home__blob {
         width: 180px;
     }
