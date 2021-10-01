@@ -202,3 +202,18 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 });
+
+/** ================== DISPLAY PICTURE FOR SMALL SIZES ================== */
+const getImage = document.querySelector('.home__blob-img');
+const imageData = document.querySelector('#small');
+const bodyWidth = Math.max(document.body.clientWidth)
+
+( function changeImageSize () {
+    if (bodyWidth < '400px') {
+        let x__bar = imageData.getAttribute(x);
+        let y__bar = imageData.getAttribute(y);
+
+        x__bar = '-24';
+        y__bar = '27';
+    }
+}) ();
